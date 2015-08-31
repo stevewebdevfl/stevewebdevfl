@@ -2,11 +2,29 @@
 body {
   font-family: verdana;
   }
+.about-me {
+  padding-top:5px;
+}
 */
 #profpic {
   width:99px;
   height:134px;
   }
+#funpic {
+  width:125px;
+  height:125px;
+  }
+.button-div button {
+  width:150px;
+  top-margin: 8px;
+  bottom-margin: 4px;
+  font-weight: bold;
+  background-color:#FF9933;
+}
+#funpic2 {
+  width:240px;
+  height:254px;
+}
 #sublime_img {
   width:600px;
   height:283px;
