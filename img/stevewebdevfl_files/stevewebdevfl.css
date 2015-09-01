@@ -1,10 +1,14 @@
+/*
 body {
-background-color: #99ffff;   /* light-baby-blue */
+  font-family: verdana;
+  }
+.about-me {
+  padding-top:5px;
 }
+*/
 #profpic {
   width:99px;
   height:134px;
-  margin-top:60px;
   }
 #funpic {
   width:125px;
