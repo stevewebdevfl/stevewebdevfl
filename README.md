@@ -1,1 +1,1 @@
-This is stevewebdevfl, business website for Steve Lokietz
+Portfolio website for Steve Lokietz
