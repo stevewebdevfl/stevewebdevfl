@@ -7,43 +7,84 @@
   <link href="css/stevewebdevfl.css" rel="stylesheet" type="text/css">
 <!--
   ADD NAVBAR HERE
--->  
+-->
 </head>
 <body>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="js/bootstrap.js"></script>
+  <div class="bs-example">
+    <nav role="navigation" class="navbar navbar-default">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="#" class="navbar-brand">Steve Lokietz</a>
+        </div>
+        <!-- Collection of nav links, forms, and other content for toggling -->
+        <div id="navbarCollapse" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Professional Skills</a></li>
+            <li><a href="#experience">Industry Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#community">Community Participation</a></li>
+              <!-- <li class="dropdown">
+                <a data-toggle="dropdown" class="dropdown-toggle" href="#">Experience<b class="caret"></b></a>
+                <ul role="menu" class="dropdown-menu">
+                  <li><a href="#">Opera</a></li>
+                  <li><a href="#">Ballet</a></li>
+                  <li><a href="#">Jazz</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Trash</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form role="search" class="navbar-form navbar-left">
+              <div class="form-group">
+                <input type="text" placeholder="Search" class="form-control">
+              </div>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Login</a></li>
+            </ul> -->
+        </div>
+      </div>
+    </nav>
+  </div>
   <div class="container">
     <div class="row">
-      <div class="col-md-2 col-md-offset-4">
-        <img id="profpic" src="img/stevewebdev-crop2a.jpg"></img>
+      <div class="col-md-2">
+        <img id="profpic" src="images/stevewebdev-crop2a.jpg"></img>
       </div>
     </div>
     <div class="row">
-      <div class="col-md-4 col-md-offset-4">
+      <div class="col-md-4">
         <h2>Steve Lokietz</h2>
       </div>
     </div>
     <div class="row">
-      <div class="col-md-5 col-md-offset-3">
+      <div class="col-md-6">
         <h3>Junior Full-Stack Web Developer</h3>
-        <!--<div class="button-div">
-          <button type="button">Shaken</button>
-          <button type="button">Stirred</button>
-        </div>-->
       </div>
     </div>
-    <div class="row text-justify features">
+    <div class="row">
       <div class="md-col-12">
-        <i class="glyphicon glyphicon-user"></i>
-        <h3>About Me:</h3>
+        <h3 id="about">About Me:</h3>
         <p>
           I am a full-stack web developer with over 20 years of experience in Information Technology, blending a diverse combination of development, user support, and functional skills and responsibilities.  As an accomplished software designer, I take pride in ensuring that I fully understand my users' requirments,  and that those requirements are fully and properly implemented in my code.  With extensive experience as both a developer and a business systems analyst, I am able to collaborate effectively with all members of any project team, both technical and functional.  I am well-accomplished in testing/QA, project/team leadership, and knowledge transfer (both individual and group).  I am respectful of deadlines, and ready to go the extra mile to get the job done on time.
         </p>
+        <a href="#profpic">(top of page)</a>
       </div>
     </div>
     <div class="row">
       <div class="col-md-12">
-        <h3>Projects:</h3>
+        <h3 id="projects">Projects:</h3>
         <p>
         Please find my projects on https://github.com/stevewebdevfl and https://github.com/steve54b
         </p>      
@@ -55,14 +96,13 @@
           <li>Quote Attribution "Guesser", Ruby</li>
           <li>WynOverflow, Ruby on Rails</li>
         </ul>
+        <a href="#profpic">(top of page)</a>
       </div>
     </div>
-    <div class="row features">
+    <div class="row">
       <div class="col-md-12">
-        <i class="glyphicon glyphicon-wrench"></i>
-        <h3>Professional Skills:</h3>
+        <h3 id="skills">Professional Skills:</h3>
         <ul>
-            <!-- class="list-group-item col-xs-6" -->
           <li>System Design, Development, & Support</li> 
           <li>Development Tools: Ruby, Rails, SQL, HTML, CSS, JavaScript, Jquery, SQR, PeopleSoft Development, FORTRAN, COBOL</li> 
           <li>Relational Database Design & Development</li> 
@@ -78,10 +118,11 @@
           <li>Production Support</li> 
           <li>Troubleshooting & Debugging</li>
         </ul>
+        <a href="#profpic">(top of page)</a>
       </div>
     <div class="row">
       <div class="col-md-12">
-        <h3>Industry Experience:</h3>
+        <h3 id="experience">Industry Experience:</h3>
         <ul>
           <li>Health Care</li> 
           <li>Manufacturing & Retail</li> 
@@ -96,43 +137,32 @@
           <li>Assisted Living</li> 
           <li>Technology</li> 
         </ul>
+        <a href="#profpic">(top of page)</a>
       </div>
     </div>
-    <div class="row features">
+    <div class="row">
       <div class="col-md-12">
-        <i class="glyphicon glyphicon-education"></i>
-        <h3>Education:</h3>
+        <h3 id="education">Education:</h3>
         <ul>
           <li>B.S., Biological Sciences, Stanford University, 6/1979</li>
           <li>Graduate, The Wyncode Academy Development Bootcamp, 6/2015</li>
           <li>Graduate coursework in Technology Management, Mercer University in Atlanta, 1993-1994</li>
           <li>Graduate coursework in Advanced Technology, Polytechnic University, 1989</li>
         </ul>
+        <a href="#profpic">(top of page)</a>
       </div>
     </div>
-    <div class="row features">
+    <div class="row">
       <div class="col-md-12">
-        <i class="glyphicon glyphicon-flag"></i>
-        <h3>Community Participation:</h3>
+        <h3 id="community">Community Participation:</h3>
         <ul>
           <li>Broward Ruby Brigade</li> 
           <li>Miami Ruby Brigade</li> 
           <li>Code for Fort Lauderdale</li> 
           <li>Design Thinking/Fort Lauderdale</li>
         </ul>
+        <a href="#profpic">(top of page)</a>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-md-4 col-md-offset-4">
-        <img id="funpic" src="img/yippee-at-pc.jpg"></img>
-      </div>
-<!-- <div class="col-md-4">
-        <br></br> 
-        <img id="sublime_img" src="img/subltxt-ruby-term.gif"></img>
-        <br></br>
-        <br></br>
-      </div>
--->
     </div>
   </div>
 </body>
