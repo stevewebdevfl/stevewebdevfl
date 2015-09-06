@@ -1,9 +1,16 @@
 body {
-background-color: #AADDFF;   /* light-baby-blue */
-font-size: 15px;
+  background-color: #AADDFF;   /* light-baby-blue */
+  font-size: 15px;
   }
 #profpic {
   width:99px;
   height:134px;
   margin-top:10px;
   }
+.panel-heading {
+  background-color: #FF9900;
+  }
+.panel-body {
+  background-color: #FF66FF;
+  }
+
