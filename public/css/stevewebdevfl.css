@@ -1,9 +1,43 @@
 body {
-background-color: #AADDFF;   /* light-baby-blue */
-font-size: 15px;
-  }
+  background-color: white;   /* light-baby-blue */
+  font-size: 15px;
+}
+.navbar-brand {
+  font-size: 24px;
+  margin-right: 395px;
+}
+.hdrtext {
+  font-size: 16px;
+  color: white;
+}
+.top-item {
+  margin-left: -10px;
+}
 #profpic {
-  width:99px;
-  height:134px;
-  margin-top:10px;
-  }
+  border-radius: 48%;
+  width: 93.5px;
+  height: 94.2px;
+  margin-top: 6px;
+}
+.persname {
+  color: black;
+  margin-top: 15px;
+  margin-bottom: -3px;
+}
+.profdescr {
+  color: black;
+  margin-bottom: 19px;
+}
+.panel-default > .panel-heading {
+  color: white;
+  background-color: gray;
+}
+.panel-body {
+  color: black;
+  background-color: #CCCCCC;
+}
+.back2top {
+  color: #0000FF;
+  font-style: italic;
+}
+
