@@ -1,16 +1,37 @@
 body {
-  background-color: #0099FF;   /* light-baby-blue */
+  background-color: white;   /* light-baby-blue */
   font-size: 15px;
-  }
+}
+.navbar-brand {
+  font-size: 24px;
+  margin-right: 395px;
+}
+.hdrtext {
+  font-size: 16px;
+  color: white;
+}
+.top-item {
+  margin-left: -10px;
+}
 #profpic {
-  width:99px;
-  height:134px;
-  margin-top:10px;
-  }
-.panel-heading {
-  background-color: #FF9900;
-  }
+  width: 80px;
+  height: 117px;
+  margin-top: 6px;
+}
+.persname {
+  color: black;
+  margin-top: 15px;
+  margin-bottom: -3px;
+}
+.profdescr {
+  color: black;
+  margin-bottom: 18px;
+}
+.panel-default > .panel-heading {
+  color: white;
+  background-color: gray;
+}
 .panel-body {
-  background-color: #33CCFF;
-  }
-
+  color: black;
+  background-color: #CCCCCC;
+}
