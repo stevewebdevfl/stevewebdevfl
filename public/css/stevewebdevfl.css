@@ -41,7 +41,8 @@ body {
 }
 .panel-body {
   color: black;
-  background-color: #CCCCCC;
+  bottom-margin: 30px;
+  background-color: #EEEEEE;
 }
 .back2top {
   color: #0000FF;
